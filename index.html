@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <head>
         <link rel="stylesheet" href="./assets/style.css" />
@@ -14,7 +15,7 @@
     <nav>
     <! -- Unordered list element -->
     <ul>
-        <li><a href="#About-me">About Me</a></li>
+        <li><a href="#about-me">About Me</a></li>
         <li><a href="#my-work">My Work</a></li>
         <li><a href="#contact-me">Contact Me</a></li>
     </ul>
@@ -32,13 +33,12 @@
     </p>
   </section>
 
-
-  <section id="your-trainers" class="trainers">
+  <section id="my-work" class="my work">
     <h2 class="section-title primary-border">
         My Work
       </h2>
       <article class="trainer">
-        <img src="./assets/images/coderefractor.jpg" alt="laptop with code refactoring" />
+        <img src="./assets/images/coderefractor.jpg" alt="laptop with code refactoring"  onclick="enlargeImg()"/>
         <div class="trainer-bio text-left">
             <h3>Code Refractoring</h3>
             <p>
@@ -46,7 +46,6 @@
             </p>
           </div>
         </article>
-
           <!-- second work section  -->
   <article class="trainer">
     <img src="./assets/images/webdesign.jpg" alt="laptop computer" />
@@ -57,7 +56,6 @@
       </p>
     </div>
   </article>
-
   <!-- third work section  -->
   <article class="trainer">
     <img src="./assets/images/webdevelopment.jpg" alt="laptop computer" />
@@ -69,7 +67,6 @@
     </div>
   </article>
 </section>
-  
   <!-- "contact section" -->
   <section id="contact-me" class="contact">
     <h2 class="section-title secondary-border">Contact Me</h2>

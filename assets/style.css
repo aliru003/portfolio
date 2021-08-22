@@ -67,7 +67,7 @@ section {
  
       
       .intro {
-        text-align: center;
+        text-align: left;
       }
       .intro p {
         line-height: 1.7;
@@ -113,18 +113,20 @@ section {
       .trainers {
         text-align: center;
       }
+      
       .trainer {
         width: 900px;
         margin: 0 auto 30px auto;
-        background: #23788079 ;
+        background: #23788038 ;
         color: #064051;
         overflow: auto;
       }
+      
       .trainer img {
         width: 35%;
         float: left;
       }
-      
+
       .trainer-bio {
         padding: 35px;
         float: left;
@@ -133,10 +135,7 @@ section {
       .text-left {
         text-align: left;
       }
-      
-      .text-right {
-        text-align: right;
-      }
+    
       .trainer-bio h3 {
         font-size: 32px;
         margin-bottom: 8px;
@@ -156,7 +155,7 @@ section {
       }
       /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
+  text-align: left;
   background: #070707;
 }
 .contact h2 {
@@ -184,8 +183,10 @@ section {
   line-height: 1.5;
   font-size: 20px;
   font-style: normal;
+  text-align: left;
 }
 
 .contact-info a {
   color: #a1a1a1;
 }
+
