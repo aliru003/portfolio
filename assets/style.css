@@ -1,189 +1,189 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    color: #a1a1a1;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+  color: #a1a1a1;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
 header {
-    padding: 20px 35px;
-    background-color: #0c0c0c;
-  }
+  padding: 20px 35px;
+  background-color: #0c0c0c;
+}
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #cecece;
-    margin: 0;
-    display: inline;
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #cecece;
+  margin: 0;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: #cecece;
+}
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+footer {
+  background: #030303;
+  width: 100%;
+  padding: 40px 35px;
   }
-  
-  header a {
-    text-decoration: none;
-    color: #cecece;
-  }
-  header nav {
-    float: right;
-    margin: 7px 0;
-  }
-  header nav ul li {
-    display: inline;
-  }
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
-  footer {
-    background: #030303;
-    width: 100%;
-    padding: 40px 35px;
-    }
 footer div {
 float: right;
 line-height: 1;
 text-align: right;
 }
 footer a {
- color: #030303;
+color: #030303;
 }
 
 section {
-    padding: 60px;
-  }
-  /* Hero Style Start */
+  padding: 60px;
+}
+/* Hero Style Start */
 .hero {
-    background-image: url("../assets/images/heroImage_1920.svg");
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  /* Hero Style End */
- 
-      
-      .intro {
-        text-align: left;
-      }
-      .intro p {
-        line-height: 1.7;
-        color: #064051;
-        width: 80%;
-        font-size: 20px;
-        margin: 0 auto;
-      }
-   
-      .section-title {
-        font-size: 55px;
-        color: #237980;
-        margin-bottom: 35px;
-        padding: 0 100px 20px 100px;
-        display: inline-block;
-        border-bottom: 3px solid;
-      }
-      
-      .primary-border {
-        border-color: #a8a8a6;
-      }
-      
-      .secondary-border {
-        border-color: #a1a1a1;
-      }
-      .steps div {
-        margin-bottom: 80px;
-      }
-      
-      .steps img {
-        width: 15%;
-        margin: 10px 0;
-      }
-      
-      .steps p {
-        color: #030303;
-        font-size: 23px;
-        text-align: left;
-      }
-      .steps span {
-        font-size: 38px;
-      }
-      
-      .trainer {
-        width: 900px;
-        margin: 0 auto 30px auto;
-        background: #23788038 ;
-        color: #064051;
-        overflow: auto;
-      }
-      
-      .trainer img {
-        width: 35%;
-        float: left;
-      }
+  background-image: url("../assets/images/heroImage_1920.svg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* Hero Style End */
 
-      .trainer-bio {
-        padding: 35px;
-        float: left;
-        width: 65%;
-      }
-      .text-left {
-        text-align: left;
-      }
     
-      .trainer-bio h3 {
-        font-size: 32px;
-        margin-bottom: 8px;
-      }
-      
-      .trainer-bio p {
-        font-size: 17px;
-        line-height: 1.3;
-      }
-      .section-title {
-        font-size: 55px;
-        display: inline-block;
-        padding: 0 100px 20px 100px;
-        border-bottom: 3px solid;
-        margin-bottom: 35px;
-        color: #064051;
-      }
-      /* REACH OUT STYLES START */
+    .intro {
+      text-align: left;
+    }
+    .intro p {
+      line-height: 1.7;
+      color: #064051;
+      width: 80%;
+      font-size: 20px;
+      margin: 0 auto;
+    }
+ 
+    .section-title {
+      font-size: 55px;
+      color: #237980;
+      margin-bottom: 35px;
+      padding: 0 100px 20px 100px;
+      display: inline-block;
+      border-bottom: 3px solid;
+    }
+    
+    .primary-border {
+      border-color: #a8a8a6;
+    }
+    
+    .secondary-border {
+      border-color: #a1a1a1;
+    }
+    .steps div {
+      margin-bottom: 80px;
+    }
+    
+    .steps img {
+      width: 15%;
+      margin: 10px 0;
+    }
+    
+    .steps p {
+      color: #030303;
+      font-size: 23px;
+      text-align: left;
+    }
+    .steps span {
+      font-size: 38px;
+    }
+    
+    .trainer {
+      width: 900px;
+      margin: 0 auto 30px auto;
+      background: #23788038 ;
+      color: #064051;
+      overflow: auto;
+    }
+    
+    .trainer img {
+      width: 35%;
+      float: left;
+    }
+
+    .trainer-bio {
+      padding: 35px;
+      float: left;
+      width: 65%;
+    }
+    .text-left {
+      text-align: left;
+    }
+  
+    .trainer-bio h3 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    
+    .trainer-bio p {
+      font-size: 17px;
+      line-height: 1.3;
+    }
+    .section-title {
+      font-size: 55px;
+      display: inline-block;
+      padding: 0 100px 20px 100px;
+      border-bottom: 3px solid;
+      margin-bottom: 35px;
+      color: #064051;
+    }
+    /* REACH OUT STYLES START */
 .contact {
-  text-align: left;
-  background: #070707;
+text-align: left;
+background: #070707;
 }
 .contact h2 {
-  color: #a1a1a1;
+color: #a1a1a1;
 }
 .contact-info iframe {
-  width: 400px;
-  height: 400px;
+width: 400px;
+height: 400px;
 }
 .contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: center;
-  margin: 30px 0 0 60px;
-  color: white;
+width: 410px;
+display: inline-block;
+vertical-align: top;
+text-align: center;
+margin: 30px 0 0 60px;
+color: white;
 }
 .contact-info h3 {
-  color: #a1a1a1;
-  font-size: 32px;
+color: #a1a1a1;
+font-size: 32px;
 }
 
 .contact-info p, .contact-info address {
-  margin: 20px 0;
-  line-height: 1.5;
-  font-size: 20px;
-  font-style: normal;
-  text-align: left;
+margin: 20px 0;
+line-height: 1.5;
+font-size: 20px;
+font-style: normal;
+text-align: left;
 }
 
 .contact-info a {
-  color: #a1a1a1;
+color: #a1a1a1;
 }
 
